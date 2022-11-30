@@ -20,7 +20,7 @@ internal partial class Program
 
     private static void Main(string[] args)
     {
-        string rootFolder =  @"D:\source\github\hodovanl\depviz\dotnet-solution-sample";
+        string rootFolder =  @"C:\dotnet-application-root-folder";
         (Reference[] references, Project[] projects) = GetReferences(rootFolder);
         GenerateForVis(references, projects);
     }
